@@ -1,4 +1,4 @@
-/*basic style*/
+
     * {
         box-sizing: border-box;
     }
@@ -35,7 +35,7 @@
         margin-bottom: auto;
     }
 
-    .sub1 {
+    .class1 {
         float: right;
         width: 100px;
         padding: 5px;
@@ -48,7 +48,7 @@
 
     }
 
-    .sub2 {
+    .class2 {
         float: right;
         color: white;
         width: 100px;
@@ -62,7 +62,7 @@
 
     }
 
-    .sub3 {
+    .class3 {
         color: black;
         float: right;
         width: 100px;
@@ -91,7 +91,7 @@
         width: 90%;
     }
 
-    /*desktop version*/
+    
     @media (min-width: 992px) {
         .column-lg-4 {
             float: left;
@@ -99,7 +99,7 @@
         }
     }
 
-    /*tablet version*/
+   
     @media (min-width: 768px) and (max-width: 991px) {
         .colmn-md-6 {
             float: left;
@@ -116,7 +116,7 @@
         }
     }
 
-    /*mobile version*/
+   
     @media (max-width: 767px) {
         .colmn-sm-12 {
             float: left;
